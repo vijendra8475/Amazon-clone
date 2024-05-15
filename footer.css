@@ -1,0 +1,141 @@
+*{
+    border: border-box;
+    padding: padding-box;
+    text-decoration-color : rgb(221, 221, 221);
+    /* color :aliceblue; */
+}
+.part_1{
+    height: 20px;
+    padding: 15px 0px;
+    font-size: 13px;
+    background-color: #37475a;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div_under_div1{
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.part_2{
+    background-color: #222f3d;
+    /* display: flex; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.part_2 div{
+    display: table-cell;
+    height: 250px;
+    line-height: 120%;
+    padding: 0px 10px;
+    margin: 50px 0px;
+}
+#box2,#box4,#box6{
+    width: 100px;
+}
+.box_heading{
+    margin: 6px 0px 14px;
+    font-size: 16px;
+    font-weight: 700;
+    display: block;
+    text-decoration-color : rgb(221, 221, 221);
+    color: rgb(221, 221, 221);
+}
+.box_options{
+    display: block;
+    padding: 0px 0px 10px;
+    font-size: 14px;
+    color: rgb(221, 221, 221);
+    text-decoration-color : rgb(221, 221, 221);
+}
+ul{
+    /* height: 200px; */
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* #line{
+    height: 0.8px;
+    border-top: 0.8px;
+    margin: 40px;
+    border-top-color: rgb(58, 69, 83) ;
+} */
+
+.part_3{
+    background-color: #222f3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 0.8px solid rgb(58, 69, 83);
+}
+#footer_part_3_box{
+    height: 68px;
+    width: 1000px;
+    margin: 10px 122px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #222f3d;
+}
+#footer_part_3_box_under_box_1,#footer_part_3_box_under_box_2{
+    margin: 0px 50px;
+}
+.anchore_tag_under_footer_part_3_box{
+    padding: 6px 18px;
+    border: 0.8px solid rgb(221, 221, 221);
+    border-radius: 5px;
+    margin: 0px 10px;
+    height: 20px;
+}
+.anchore_tag_under_footer_part_3_box #logo{
+    height: 15px;
+    width: 15px;
+}
+.text_under_box{
+    font-size: 13px;
+    padding: 0px 7.8px;
+}
+#up-down-arrow{
+    margin: 0px;
+    padding: 0px 7.8px 0px 20px;
+}
+#flag{
+    height: 15px;
+    width: 15px;
+    position: relative;
+    top: 3px;
+}
+
+
+.part_4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #131A22;
+}
+#link{
+    height: 15.2px;
+    padding: 0px 7.2px;
+    font-size: 12px;
+    color: #dddddd;
+}
+#part4div{
+    padding: 30px 0px 30px;
+}
+#part_4_span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: #dddddd;
+}

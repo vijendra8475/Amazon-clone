@@ -1,0 +1,156 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.main{
+    background-color: rgb(238, 238, 238);
+}
+#poster{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img24/Wireless/Madhav/MayART24/Apple/Gw/Golive/D129506536_IN_WLD_May_Art24_Apple_gw_MAy_Art_DesktopHero_3000x1200._CB557861736_.jpg");
+    height:260px;
+    /* width: 100vw; */
+    background-size: cover;
+    /* background-position: center; */
+}
+
+
+.containers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+#container1,#container2,#container3,#container4,#container5,#container6,#container7,#container8,#container10,#container11,#container12{
+    height: 420px;
+    width: 350px;
+    background-color: aliceblue;
+    /* background-color: aquamarine; */
+    margin: 5px;
+    /* border-radius: 10px; */
+    /* border-style: solid; */
+
+    font-size: 25px ;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;    
+}
+#container9{
+    height: 420px;
+    width: 725px;
+    margin: 5px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container_img{
+    height: 270px;
+    width: 300px;
+    /* margin-top: 10px; */
+    border-radius: 10px;
+}
+#gamingaccessories,#dealsonpc,#giftformoms,#beauty_items{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.shopbtn{
+    color: black;
+    font: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.img_under_img{
+    margin: 10px 10px 10px 0px;
+    height: 100px;
+    width: 117px;
+    /* background-size: cover; */
+    border-radius: 5px;
+}
+#amazongadgetstore1{
+    height: 170px;
+    width: 300px;
+    border-radius: 10px;
+}
+.Amazgadgetstore{
+    display: flex;
+}
+#amazongadgetstore2,#amazongadgetstore3,#amazongadgetstore4{
+    border-radius: 5px;
+    height: 70px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.text_under_img_div{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.Qudra_div{
+    /* display: flex;
+    flex-wrap: wrap; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#container_no_5,#container_no_8,#container_no_3,#container_no_10,#container_no_11,#container_no_12{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#container12{
+    height: 260px;
+    width: 100vw;
+    background-color: transparent;
+}
+#banner{
+    height: 100%;
+    width: 970px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    background-image: url("Screenshot\ 2024-05-11\ 184354.png");
+    background-size: contain;
+}
+
+#scroller{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#scroller img{
+    height: 200px;
+}
+
+#container13{
+    height: 280px;
+    width: 94%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+    text-align: left;
+    padding: 10px 20px;
+    font-size: 25px ;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
